@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "delicative",
+	"version": "${version}",
+	"name": "Delicative",
+	"description": "装饰模组 - 提供的建筑方块并不多，多多包涵！",
+	"authors": [
+		"Antihero"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"icon": "assets/delicative/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.delicative.Delicative"
+		],
+		"client": [
+			"net.delicative.DelicativeClient"
+		]
+	},
+	"mixins": [
+		"delicative.mixins.json",
+		{
+			"config": "delicative.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

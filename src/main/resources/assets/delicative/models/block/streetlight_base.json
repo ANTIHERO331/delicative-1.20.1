@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "delicative:block/streetlight_main",
+		"particle": "delicative:block/streetlight_main"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 16, 10],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 4, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 4, 16], "texture": "#0"},
+				"up": {"uv": [9, 0, 13, 4], "texture": "#0"},
+				"down": {"uv": [9, 4, 13, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.5, 0, 5.5],
+			"to": [10.5, 6, 10.5],
+			"faces": {
+				"north": {"uv": [4, 0, 9, 6], "texture": "#0"},
+				"east": {"uv": [4, 0, 9, 6], "texture": "#0"},
+				"south": {"uv": [4, 0, 9, 6], "texture": "#0"},
+				"west": {"uv": [4, 0, 9, 6], "texture": "#0"},
+				"up": {"uv": [4, 11, 9, 16], "texture": "#0"},
+				"down": {"uv": [4, 6, 9, 11], "texture": "#0"}
+			}
+		}
+	]
+}
